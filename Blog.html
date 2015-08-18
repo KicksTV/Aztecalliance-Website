@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Link href ="style.css" rel="stylesheet"></Link>
+		<title>AzTec Website</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="bower_components/jquery/jquery.js"></script>
+	</head>
+	<body>
+		
+		<div class="headercontainer">
+		    <img id="aztec" class="aztec" src="AzTec-logo-BG.png" alt="aztec logo">
+        </div>
+		
+		<nav>
+			<ul>
+				<a href="Home.html"><li>Home</li></a>
+				<a href="Blog.html"><li>Blog</li></a>
+				<a href="Services.html"><li>Services</li></a>
+				<a href="Contact.html"><li>Contact</li></a>
+			</ul>
+			<div class="handle">Menu</div>
+		</nav>
+		
+		<div class="maincontainer">
+		
+		</div>
+	<script>
+
+		
+		
+		$('.handle').on('click', function(){
+			$('nav ul').toggleClass('showing');
+		});
+	</script>
+	</body>
+</html>
